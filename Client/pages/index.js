@@ -30,6 +30,12 @@ const Main = () => {
 
 export default Main;
 
+export const getStaticProps = async context => {
+  return {
+    props: {},
+  };
+};
+
 export const getServerSideProps = async context => {
   return {
     props: {},
